@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 50px;
+    font-family: 'Arial';
+    padding: 12px;
+}
