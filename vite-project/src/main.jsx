@@ -10,10 +10,8 @@ import 'react-toastify/dist/ReactToastify.css';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <HashRouter>
     <Provider store={store}>
       <App />
     </Provider>
-    </HashRouter>
   </StrictMode>
 )
