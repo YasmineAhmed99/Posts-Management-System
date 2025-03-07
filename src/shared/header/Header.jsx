@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import MainNav from './MainNav'
-import Home from '../../pages/HomePage'
-import About from '../../pages/AboutPage'
+import Home from '../../pages/HomePage.jsx'
+import About from '../../pages/AboutPage.jsx'
 import './style.css'
 
 function Header() {

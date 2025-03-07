@@ -1,5 +1,5 @@
 import React from 'react';
-import PostsList from '../features/posts/postsList';
+import PostsList from '../features/posts/postsList.jsx';
 
 function HomePage() {
   return (

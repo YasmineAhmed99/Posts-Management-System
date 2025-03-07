@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { addPost, deletePost, fetchPosts, updatePost } from "../../network/postsApis";
+import { addPost, deletePost, fetchPosts, updatePost } from "../../network/postsApis.js";
 
 export const postsSlice = createSlice({
     name: 'posts',

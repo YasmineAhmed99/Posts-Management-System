@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import UpdatePostModal from "../../Components/Modal/UpdatePostModal";
 import { ToastContainer, toast } from "react-toastify";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchPosts, addPost, updatePost, deletePost } from "./postsSlice";
+import { fetchPosts, addPost, updatePost, deletePost } from "./postsSlice.js";
 import "./style.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEdit, faTrash, faPlus } from "@fortawesome/free-solid-svg-icons";
